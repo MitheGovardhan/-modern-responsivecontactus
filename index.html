@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<<device-width>>>, initial-scale=1.0">
+    <title>Contact From</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h2>Contact Us</h2>
+      <form id="contactfrom" onsubmit="submitfrom(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="mail">Mail:</label>
+        <input type="mail" id="mail" name="mail" required>
+
+        <label for="message">message:</label>
+        <input type="message" id="message" name="message" rows="5 " required> 
+        <br>
+        <button type="submit">Submit</button>
+
+      </form>
+      <div id="response"></div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
